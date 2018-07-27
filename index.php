@@ -31,4 +31,10 @@
 	// $user->update("Beltrano", "3eltr4n0");
 	// echo $user;
 
+	// Deleta Usuário
+	// $user_deleted = new Usuario();
+	// $user_deleted->loadById(7);
+	// $user_deleted->delete();
+	// echo $user_deleted;
+
  ?>
