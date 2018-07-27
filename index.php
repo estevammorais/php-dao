@@ -26,11 +26,9 @@
 	//echo $user;
 
 	// Atualiza Usuário
-	$user = new Usuario();
-	$user->loadById(5);
-	$user->update("Beltrano", "3eltr4n0");
-
-	echo $user;
-
+	// $user = new Usuario();
+	// $user->loadById(5);
+	// $user->update("Beltrano", "3eltr4n0");
+	// echo $user;
 
  ?>
