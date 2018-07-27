@@ -20,5 +20,17 @@
 	// $user->login("User","12345");
 	// echo $user;
 
+	// Insere Usuário no Banco de Dados
+	//$user = new Usuario("Fulano", "Ful@n0");
+	//$user->insert();
+	//echo $user;
+
+	// Atualiza Usuário
+	$user = new Usuario();
+	$user->loadById(5);
+	$user->update("Beltrano", "3eltr4n0");
+
+	echo $user;
+
 
  ?>
